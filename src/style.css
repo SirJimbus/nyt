@@ -1,0 +1,185 @@
+body {
+  background-color: #eee;
+  margin: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.navbar-p {
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.showcase {
+  background-image: url(https://images.pexels.com/photos/167538/pexels-photo-167538.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0, 5px;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.overlay-title {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: bold;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.title {
+  font-family: Roboto;
+}
+
+.main-section {
+  padding: 5px, 10px, 20px;
+}
+
+.article-main {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article {
+  background-color: white;
+  padding: 5, 10;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+.abstract {
+  font-family: Lato;
+  text-align: center;
+  font-size: bold;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.paragraph {
+  font-family: Montserrat;
+  text-align: center;
+  margin: 10px 30px;
+}
+
+.article-url {
+  color: black;
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.list {
+  list-style: none;
+  margin: 0, 4;
+  padding: 0;
+}
+
+.list-item {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item-span {
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  border: red;
+  text-align: center;
+  padding: 2px, 1px;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.form-button {
+  color: white;
+  border: 0px;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  padding: 2px, 1px;
+  border-top-right-radius: 10%;
+  border-end-end-radius: 10%;
+  cursor: pointer;
+}
+
+.books-page {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: #eeee;
+}
+
+.books-div {
+  margin-bottom: 100px;
+}
+
+.purchase {
+  margin-bottom: 5px;
+}
+
+.books-a {
+  display: inline;
+  text-decoration: underline;
+  color: black;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .article-main {
+    font-size: 16px;
+  }
+
+  .abstract {
+    font-size: 12px;
+  }
+
+  .paragraph {
+    font-size: 10px;
+  }
+
+  .list {
+    font-size: 6px;
+  }
+}
