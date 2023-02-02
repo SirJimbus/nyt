@@ -15,7 +15,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://gentle-sfogliatella-6134f6.netlify.app)
+![ScreenShot](https://gentle-sfogliatella-6134f6.netlify.app)
 
 ### Built With
 
